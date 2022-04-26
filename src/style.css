@@ -34,6 +34,10 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 8px;
+}
+
 .hero {
   background-color: var(--bg-color);
   text-align: center;
@@ -92,10 +96,6 @@ p {
 
 .text-grid {
   padding: 60px 60px;
-}
-
-.img-about {
-  border-radius: 4px;
 }
 
 @media (max-width: 991px) {
