@@ -39,12 +39,38 @@ a {
   color: var(--branding-color);
 }
 
-a:hover {
+a:hover,
+nav li.active a {
   color: var(--secondary-color);
 }
 
 img {
   border-radius: 8px;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 62px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .hero {
@@ -132,5 +158,11 @@ img {
   .content {
     padding: 0;
     text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  nav a {
+    font-size: 14px;
   }
 }
