@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Gloria is a frontend developer based in Switzerland. Discover more about her."
+    />
+    <title>About gloria 🌸 Frontend Developer</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,6 +33,28 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <div class="container px-4">
+      <nav class="d-flex justify-content-between">
+        <a href="/" class="d-none d-md-block"
+          ><img
+            src="img/gloria-logo.png"
+            alt="Gloria Logo"
+            class="logo d-none d-md-block"
+        /></a>
+        <a href="/" class="d-block d-md-none"
+          ><img
+            src="img/gloria-logo-sm.png"
+            alt="Gloria Logo"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li class="active"><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -37,8 +63,12 @@
             <h2 class="mb-4">Frontend Developer, based in 🇨🇭 Zurich.</h2>
             <p class="mb-5">
               The digital world has always interested me and I've been working
-              in it for 10 years. Being a 👩🏼‍💻 Frontend Developer makes me more
-              and more passionate every day, as you 🪴 never stop learning.
+              in it for 10 years 🪴. Being a frontend developer 👩🏼‍💻&nbsp;
+              gratifies me every day, every challenge is an achievement that
+              teaches me something new. Every day I'm confronted with different
+              types of projects and each one is a lesson 📚&nbsp; for me.
+              Collaborating with colleagues and clients makes my job rewarding
+              🏅&nbsp; and makes my work fun and stimulating.
             </p>
             <a href="/work.html" class="btn btn-branding" title="My proejcts"
               >See my projects</a
@@ -54,5 +84,47 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box container text-center">
+        <div class="row">
+          <div class="col-lg-9 text-lg-start">
+            <h4>Direct Line</h4>
+            <p class="text-muted">🪄 Stop looking. Here is my email.</p>
+          </div>
+          <div class="col-lg-3">
+            <a
+              href="mailto:hello@gloriatoth.ch"
+              class="btn btn-branding mt-3"
+              title="Email me"
+              >Write now</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="mailto:hello@gloriatoth.ch" title="Email"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/gloriatoth/"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/gloriatoth/responsive-4-portfolio-gloria"
+          target="_blank"
+          title="GitHub"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div class="text-center mt-4">
+        <p>
+          <small class="text-muted">
+            This website was coded by gloria and is open-source
+          </small>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
